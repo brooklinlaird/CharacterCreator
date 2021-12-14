@@ -10,6 +10,12 @@ public class PlayerController : MonoBehaviour
     {
         ArmorRenderer.sprite = newSprite;
     }
+      public SpriteRenderer WeaponRenderer;
+
+    public void SetWeapon(Sprite newSprite)
+    {
+        WeaponRenderer.sprite = newSprite;
+    }
     // start this before the first frame
     void Start()
     {
